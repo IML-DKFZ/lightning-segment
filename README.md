@@ -98,136 +98,66 @@ Furthermore, they are compared with the results of a 2D [nnU-Net](https://github
 
 ### Hippocampus dataset
 
-#### Pytorch-Lightning Example
 
 <table>
   <tr>
    <td>Fold</td>
-   <td>Dice</td>
-  </tr>
-  <tr>
    <td>0</td>
-   <td>0.8822</td>
-  </tr>
-  <tr>
    <td>1</td>
-   <td>0.8809</td>
-  </tr>
-  <tr>
    <td>2</td>
-   <td>0.8798</td>
-  </tr>
-  <tr>
    <td>3</td>
-   <td>0.878</td>
-  </tr>
-  <tr>
    <td>4</td>
-   <td>0.8805</td>
+   <td>Mean</td>
   </tr>
   <tr>
-   <td>Mean</td>
+   <td>Dice Pytorch-Lightning Example</td>
+   <td>0.8822</td>
+   <td>0.8809</td>
+   <td>0.8798</td>
+   <td>0.878</td>
+   <td>0.8805</td>
    <td>0.8803</td>
   </tr>
-</table>
-
-#### nnU-Net
-
-<table>
   <tr>
-   <td>Fold</td>
-   <td>Dice</td>
-  </tr>
-  <tr>
-   <td>0</td>
+   <td>Dice nnU-Net</td>
    <td>0.8748</td>
-  </tr>
-  <tr>
-   <td>1</td>
    <td>0.8764</td>
-  </tr>
-  <tr>
-   <td>2</td>
    <td>0.8768</td>
-  </tr>
-  <tr>
-   <td>3</td>
    <td>0.875</td>
-  </tr>
-  <tr>
-   <td>4</td>
    <td>0.876</td>
-  </tr>
-  <tr>
-   <td>Mean</td>
    <td>0.8758</td>
   </tr>
 </table>
 
+
 ### Heart dataset
 
-#### Pytorch-Lightning Example
-
 <table>
   <tr>
    <td>Fold</td>
-   <td>Dice</td>
-  </tr>
-  <tr>
    <td>0</td>
-   <td>0.8735</td>
-  </tr>
-  <tr>
    <td>1</td>
-   <td>0.8895</td>
-  </tr>
-  <tr>
    <td>2</td>
-   <td>0.8905</td>
-  </tr>
-  <tr>
    <td>3</td>
-   <td>0.8989</td>
-  </tr>
-  <tr>
    <td>4</td>
-   <td>0.8942</td>
+   <td>Mean</td>
   </tr>
   <tr>
-   <td>Mean</td>
+   <td>Dice Pytorch-Lightning Example</td>
+   <td>0.8735</td>
+   <td>0.8895</td>
+   <td>0.8905</td>
+   <td>0.8989</td>
+   <td>0.8942</td>
    <td>0.8794</td>
   </tr>
-</table>
-
-#### nnU-Net
-
-<table>
   <tr>
-   <td>Fold</td>
-   <td>Dice</td>
-  </tr>
-  <tr>
-   <td>0</td>
+   <td>Dice nnU-Net</td>
    <td>0.9227</td>
-  </tr>
-  <tr>
-   <td>1</td>
    <td>0.9205</td>
-  </tr>
-  <tr>
-   <td>2</td>
    <td>0.9197</td>
-  </tr>
-  <tr>
-   <td>3</td>
    <td>0.9052</td>
-  </tr>
-  <tr>
-   <td>4</td>
    <td>0.9183</td>
-  </tr>
-  <tr>
-   <td>Mean</td>
    <td>0.9173</td>
   </tr>
 </table>
